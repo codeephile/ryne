@@ -1,0 +1,135 @@
+body {
+  font-family: "Poppins";
+  /* hero-image */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(img/bgg.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+body h1 {
+  text-align: center;
+  color: #fff;
+}
+body h4 {
+  color: #fff;
+  text-align: center;
+}
+body h2 {
+  color: #fff;
+  text-align: center;
+}
+body p {
+  color: #fff;
+  text-align: center;
+}
+body .nav-link {
+  font-size: 20px;
+  color: #fff;
+  text-shadow: 0px 0px 5px #fff;
+}
+body .nav-link:hover {
+  color: rgb(165, 165, 165);
+  text-shadow: 0px 0px 3px #fff;
+}
+body .navbar-brand {
+  color: #fff;
+  font-size: 35px;
+  text-shadow: 0px 0px 5px #fff;
+}
+body .navbar-brand:hover {
+  color: rgb(165, 165, 165);
+  text-shadow: 0px 0px 3px #fff;
+}
+body a {
+  color: #fff;
+}
+body a:hover {
+  color: rgb(165, 165, 165);
+  text-shadow: 0px 0px 5px #fff;
+}
+
+.navbar-toggler:hover {
+  box-shadow: none;
+  border: none;
+  background: transparent;
+}
+
+/*.navbar{
+    background-color: rgb(0,0,0,0.30);
+}*/
+.section {
+  background-position: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 600px;
+  min-width: none;
+}
+
+/* Position text in the middle of the page/image */
+.bg-text {
+  background-color: rgb(0, 0, 0); /* Fallback color */
+  background-color: rgba(155, 155, 155, 0.1); /* Black w/opacity/see-through */
+  color: white;
+  font-weight: bold;
+  border: 2px solid #f1f1f1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 80%;
+  padding: 50px;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.card-body {
+  border: 1px solid #fff;
+  border-radius: 5px;
+}
+
+.box {
+  position: absolute;
+  right: 8%;
+  margin: 20px;
+  padding-top: 150px;
+}
+
+.form-group {
+  background: transparent;
+}
+
+input[type=text], input[type=password], input[type=email], textarea {
+  color: #fff;
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: transparent;
+  border-bottom: 1px solid #fff;
+  border-radius: none;
+}
+
+input[type=text]:focus, input[type=password]:focus, input[type=email]:focus, textarea:focus {
+  color: #fff;
+  background: transparent;
+  border-bottom: 1px solid #fff;
+  outline: none;
+  box-shadow: none;
+}
+
+label {
+  color: #fff;
+}
+
+.btn {
+  color: #fff;
+  background: transparent;
+  border-color: #fff;
+}
+
+.btn:hover {
+  color: #fff;
+  background: rgba(233, 233, 233, 0.5);
+  border-color: #fff;
+}/*# sourceMappingURL=style.css.map */
